@@ -2,6 +2,12 @@ This docker image provides a libraries required for QuartusPrime.
 
 Please install Quartus Prime Lite 18.1 in `/eda` beforehand.
 
+## Docker build
+
+```sh
+./build_docker.sh
+```
+
 ## Usage
 
 ```sh
