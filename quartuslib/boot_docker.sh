@@ -12,4 +12,4 @@ docker run -it --rm \
     -v $HOME:$HOME \
     -v $(pwd):$(pwd) \
     -w $(pwd) \
-    sarakane6090/quartuslib:1.0 $1
+    sarakane6090/quartuslib:1.1 $1
