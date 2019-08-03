@@ -36,6 +36,10 @@ RUN set -eux && \
         locales \
         && \
     locale-gen en_US.UTF-8 && \
+    # Install librarise required for Platform Designer(Qsys)
+    apt-get install --no-install-recommends -qq -y \
+        openjdk-8-jre \
+        && \
     # Install libraries required for ModelSim
     apt-get install --no-install-recommends -qq -y \
         libncurses5:i386 \
